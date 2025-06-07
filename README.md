@@ -142,7 +142,7 @@ SHAP analysis was used to explain the impact of each feature on model prediction
 ## 👨‍💻 Author
 
 **Abdullah Shahzad**  
-[GitHub](https://github.com//abdullahhunjra) • [LinkedIn](https://linkedin.com/in/abdullahhunjra)
+[GitHub](https://github.com//abdullahhunjra) • [LinkedIn](https://https://www.linkedin.com/in/abdullahhunjra)
 
 ---
 
