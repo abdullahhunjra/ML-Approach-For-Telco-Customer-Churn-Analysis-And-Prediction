@@ -24,6 +24,10 @@ encoder_contract = joblib.load(os.path.join(ENCODERS_PATH, "Contract_encoder.pkl
 
 app = FastAPI()
 
+@app.get("/")
+def root():
+    return {"message": "Telco Churn Prediction API is running!"}
+
 class CustomerData(BaseModel):
     tenure: float
     InternetService: str
