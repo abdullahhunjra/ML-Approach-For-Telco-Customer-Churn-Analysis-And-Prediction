@@ -117,10 +117,10 @@ SHAP analysis was used to explain the impact of each feature on model prediction
 │   └── shap_summary_plot.png
 │
 ├── models/                  # Saved models (.pkl)
-│   └── gradient_boosting_default.pkl
+│   └── logistic_regression_default.pkl
 │
-├── notebooks/               # Jupyter notebooks
-│   └── Telco-Customer-Churn.ipynb
+├── Telco-Customer-Churn.ipynb
+│
 │
 ├── requirements.txt         # Python dependencies
 ├── README.md                # Project summary
@@ -136,6 +136,14 @@ SHAP analysis was used to explain the impact of each feature on model prediction
    pip install -r requirements.txt
    ```
 3. Launch Jupyter or run script
+
+OR
+
+1-Clone the repository
+2-Install dependencies
+   pip install -r requirements.txt
+3-Run the FastAPI server using command: uvicorn main:app --reload
+4-Visit Swagger Docs: http://127.0.0.1:8000/docs
 
 ---
 
